@@ -1,8 +1,8 @@
-let btnOpen = document.querySelector('.open-btn')
-let btnClose = document.querySelector('.modal__footer__btn')
-let iconClose = document.querySelector('.bx.bx-x')
-let modalContainer = document.querySelector('.modal-container')
-let modal = document.querySelector('.modal')
+const btnOpen = document.querySelector('.open-btn')
+const btnClose = document.querySelector('.modal__footer__btn')
+const iconClose = document.querySelector('.bx.bx-x')
+const modalContainer = document.querySelector('.modal-container')
+const modal = document.querySelector('.modal')
 
 function openModal (){
     modalContainer.classList.remove('hide')
